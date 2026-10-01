@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 import { socket } from "./socket";
-import "./Chat.css";
+import "./chat.css";
 
 function Chat({ username }) {
   const [message, setMessage] = useState("");
